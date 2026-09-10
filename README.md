@@ -5,7 +5,7 @@ C++을 사용하여 Ray Tracing의 기본 원리를 학습하고 직접 구현�
 
 픽셀 데이터를 직접 생성하는 과정부터 시작하여<br>
 Ray 생성, 광선과 객체의 교차 판정, 표면 법선, 재질, 반사 등의 개념을 단계적으로 구현하며<br>
-3D 그래픽스의 렌더링 원리를 이해하는 것을 목표로 합니다.<br>
+3D 그래픽스의 렌더링 원리를 이해하는 것을 목표로 합니다.<br><br>
 
 👉 PPM Viewer https://www.cs.rhodes.edu/welshc/COMP141_F16/ppmReader.html
 
