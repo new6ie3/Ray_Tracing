@@ -10,4 +10,4 @@ Ray 생성, 광선과 객체의 교차 판정, 표면 법선, 재질, 반사 등
 
 링크를 접속하여 PPM 파일을 선택하면 RGB 값으로 저장된 데이터를 실제 이미지 형태로 확인할 수 있습니다. <br>
 
-<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/f28e5350-c656-46a9-9aab-9cefbc8f7312" />
+<img width="256" height="256" alt="sample" src="https://github.com/user-attachments/assets/9cf86188-39b5-44cb-bb82-6c54490e7d9e" />
