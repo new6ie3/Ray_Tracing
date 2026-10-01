@@ -20,9 +20,9 @@ inline double DegreesToRadians(double degrees)
 
 // Common Headers
 
-#include "Color.h"
-#include "Interval.h"
-#include "Ray.h"
-#include "Vec3.h"
+#include "Utilities/Color.h"
+#include "Utilities/Interval.h"
+#include "Utilities/Ray.h"
+#include "Utilities/Vec3.h"
 
 #endif

@@ -1,9 +1,9 @@
 #include "rtweekend.h"
 
-#include "camera.h"
-#include "hittable.h"
-#include "hittablelist.h"
-#include "sphere.h"
+#include "Objects/camera.h"
+#include "Objects/hittable.h"
+#include "Objects/hittablelist.h"
+#include "Objects/sphere.h"
 
 Color RayColor(const Ray& ray, const Hittable& world)
 {

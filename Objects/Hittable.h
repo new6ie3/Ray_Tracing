@@ -1,8 +1,8 @@
 #ifndef HITTABLE_H
 #define HITTABLE_H
 
-#include "Ray.h"
-#include "Interval.h"
+#include "Utilities/Ray.h"
+#include "Utilities/Interval.h"
 
 class HitRecord
 {

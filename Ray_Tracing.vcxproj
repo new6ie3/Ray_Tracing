@@ -80,15 +80,15 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Color.h" />
-    <ClInclude Include="Hittable.h" />
-    <ClInclude Include="HittableList.h" />
-    <ClInclude Include="Interval.h" />
-    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Objects\Camera.h" />
+    <ClInclude Include="Utilities\Color.h" />
+    <ClInclude Include="Objects\Hittable.h" />
+    <ClInclude Include="Objects\HittableList.h" />
+    <ClInclude Include="Utilities\Interval.h" />
+    <ClInclude Include="Utilities\Ray.h" />
     <ClInclude Include="RTWeekend.h" />
-    <ClInclude Include="Sphere.h" />
-    <ClInclude Include="Vec3.h" />
+    <ClInclude Include="Objects\Sphere.h" />
+    <ClInclude Include="Utilities\Vec3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
