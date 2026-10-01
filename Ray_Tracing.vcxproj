@@ -82,7 +82,10 @@
   <ItemGroup>
     <ClInclude Include="Color.h" />
     <ClInclude Include="Hittable.h" />
+    <ClInclude Include="HittableList.h" />
+    <ClInclude Include="Interval.h" />
     <ClInclude Include="Ray.h" />
+    <ClInclude Include="RTWeekend.h" />
     <ClInclude Include="Sphere.h" />
     <ClInclude Include="Vec3.h" />
   </ItemGroup>
