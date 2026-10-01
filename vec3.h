@@ -92,6 +92,7 @@ inline Vector3 operator/(const Vector3& v, double t)
     return (1 / t) * v;
 }
 
+// 내적
 inline double Dot(const Vector3& u, const Vector3& v)
 {
     return u.E[0] * v.E[0]
@@ -99,6 +100,7 @@ inline double Dot(const Vector3& u, const Vector3& v)
         + u.E[2] * v.E[2];
 }
 
+// 외적
 inline Vector3 Cross(const Vector3& u, const Vector3& v)
 {
     return Vector3(u.E[1] * v.E[2] - u.E[2] * v.E[1],
@@ -106,6 +108,7 @@ inline Vector3 Cross(const Vector3& u, const Vector3& v)
         u.E[0] * v.E[1] - u.E[1] * v.E[0]);
 }
 
+// 정규화
 inline Vector3 UnitVector(const Vector3& v)
 {
     return v / v.Length();
