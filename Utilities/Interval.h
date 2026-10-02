@@ -33,11 +33,26 @@ struct Interval
         return Min < value && value < Max;
     }
 
+    double Clamp(double value) const
+    {
+        if (value < Min)
+            return Min;
+
+        if (value > Max)
+            return Max;
+
+        return value;
+    }
+
     static const Interval Empty;
     static const Interval Universe;
 
     double Min = 0.0;
     double Max = 0.0;
+
+private:
+    double mMinimum = 0.0;
+    double mMaximum = 0.0;
 };
 
 const Interval Interval::Empty(+Infinity, -Infinity);
